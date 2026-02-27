@@ -1,0 +1,13 @@
+# IDEs
+.vscode/
+
+# Materiais de Referência (AG5)
+"Skill´s Padrões AG5/"
+
+# Scripts de Automação Local
+sync_layout.py
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules/
