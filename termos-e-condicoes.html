@@ -93,6 +93,35 @@
     </div>
   </header>
 
+  <div id="mobile-menu">
+    <div class="mobile-menu-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#F5C94A" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" style="width: 2rem; height: 2rem;">
+          <path d="M12 3v18M6 8l-4 7h8l-4-7zM18 8l-4 7h8l-4-7zM2 21h20M12 3c-3 0-6 1-8 2M12 3c3 0 6 1 8 2" />
+        </svg>
+        <span
+          style="font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; color: var(--gold);">Camacho</span>
+      </div>
+      <button id="mobile-menu-close" style="background:none; border:none; color:var(--text); cursor:pointer;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" style="width: 2rem; height: 2rem;">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-list">
+      <li class="mobile-nav-item"><a href="index.html#inicio" class="mobile-nav-link">Início</a></li>
+      <li class="mobile-nav-item"><a href="index.html#areas" class="mobile-nav-link">Áreas de Atuação</a></li>
+      <li class="mobile-nav-item"><a href="index.html#sobre" class="mobile-nav-link">Sobre</a></li>
+      <li class="mobile-nav-item"><a href="index.html#faq" class="mobile-nav-link">Dúvidas</a></li>
+      <li class="mobile-nav-item"><a href="index.html#contato" class="mobile-nav-link">Contato</a></li>
+    </ul>
+  </div>
+
   <main class="legal-content">
     <h1>Termos e Condições de Uso</h1>
     <p><em>Última atualização: 27 de fevereiro de 2026</em></p>
@@ -403,6 +432,7 @@
 
   <!-- Scripts -->
   <script src="cookie-banner.js" defer></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>
