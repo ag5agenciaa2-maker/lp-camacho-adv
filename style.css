@@ -674,8 +674,8 @@ header .container {
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
 }
 
@@ -769,8 +769,8 @@ header .container {
         grid-template-columns: 1fr !important;
         text-align: left;
         gap: 2.5rem;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
     }
 
     .footer-logo-brand,
