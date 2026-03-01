@@ -46,7 +46,7 @@
   <link rel="stylesheet" href="cookie-banner.css">
 
   <!-- Performance & Favicon -->
-  <link rel="preload" href="assets/images/hero-bg.webp" as="image">
+  <link rel="preload" href="assets/images/hero-bg (2).webp" as="image">
   <link rel="icon" type="image/x-icon"
     href="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (7).ico">
   <link rel="apple-touch-icon"
@@ -244,31 +244,46 @@
           <li><a href="#contato" class="nav-link">Contato</a></li>
         </ul>
       </nav>
-    </div>
+
+      <button id="mobile-menu-trigger" class="mobile-trigger-show" aria-label="Abrir menu"
+        style="background: none; border: none; color: var(--gold); cursor: pointer; padding: 0.5rem; margin-left: auto;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" style="width: 2rem; height: 2rem;">
+          <line x1="4" y1="8" x2="20" y2="8"></line>
+          <line x1="4" y1="16" x2="20" y2="16"></line>
+        </svg>
+      </button>
     </div>
   </header>
 
-  <!-- Mobile Menu Overlay -->
   <div id="mobile-menu">
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-      <span
-        style="font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; color: var(--gold);">Camacho</span>
+    <div class="mobile-menu-header">
+      <div style="display: flex; align-items: center; gap: 0.75rem;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#F5C94A" stroke-width="1.5" stroke-linecap="round"
+          stroke-linejoin="round" style="width: 2rem; height: 2rem;">
+          <path d="M12 3v18M6 8l-4 7h8l-4-7zM18 8l-4 7h8l-4-7zM2 21h20M12 3c-3 0-6 1-8 2M12 3c3 0 6 1 8 2" />
+        </svg>
+        <span
+          style="font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; color: var(--gold);">Camacho</span>
+      </div>
       <button id="mobile-menu-close" style="background:none; border:none; color:var(--text); cursor:pointer;">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
           stroke-linejoin="round" style="width: 2rem; height: 2rem;">
           <line x1="18" y1="6" x2="6" y2="18"></line>
           <line x1="6" y1="6" x2="18" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+          <line x1="18" y1="6" x2="6" y2="18"></line>
         </svg>
       </button>
     </div>
     <ul class="mobile-nav-list">
-      <li><a href="#inicio" class="mobile-nav-link">Início</a></li>
-      <li><a href="#areas" class="mobile-nav-link">Áreas de Atuação</a></li>
-      <li><a href="#sobre" class="mobile-nav-link">Sobre</a></li>
-      <li><a href="#faq" class="mobile-nav-link">Dúvidas</a></li>
-      <li><a href="#contato" class="mobile-nav-link">Contato</a></li>
+      <li class="mobile-nav-item"><a href="#inicio" class="mobile-nav-link">Início</a></li>
+      <li class="mobile-nav-item"><a href="#areas" class="mobile-nav-link">Áreas de Atuação</a></li>
+      <li class="mobile-nav-item"><a href="#sobre" class="mobile-nav-link">Sobre</a></li>
+      <li class="mobile-nav-item"><a href="#faq" class="mobile-nav-link">Dúvidas</a></li>
+      <li class="mobile-nav-item"><a href="#contato" class="mobile-nav-link">Contato</a></li>
     </ul>
-    <div style="margin-top: auto; padding-bottom: 2rem;">
+    <div class="mobile-menu-footer">
       <a href="#contato" class="btn-cta" style="display: block; text-align: center; padding: 1.25rem;">Agendar
         Atendimento</a>
     </div>
@@ -358,8 +373,8 @@
           <div class="glass-card"
             style="padding: 0; background: rgba(255,0,0,0.02); border-color: rgba(255,255,255,0.03);">
             <div style="height: 250px; border-radius: 1.5rem 1.5rem 0 0; overflow: hidden; position: relative;">
-              <img src="assets/images/problema-juridico.png" alt="Cenário de Problema Jurídico"
-                style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) opacity(0.5);">
+              <img src="assets/images/advocacia-problema.webp" alt="Cenário de Problema Jurídico" width="600"
+                height="400" style="width: 100%; height: 100%; object-fit: cover; filter: grayscale(1) opacity(0.5);">
               <div
                 style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent, var(--dark-surface));">
               </div>
@@ -418,8 +433,8 @@
           <div class="glass-card"
             style="padding: 0; border-color: rgba(245, 201, 74, 0.2); background: rgba(245, 201, 74, 0.02);">
             <div style="height: 250px; border-radius: 1.5rem 1.5rem 0 0; overflow: hidden; position: relative;">
-              <img src="assets/images/solucao-juridica.png" alt="Cenário de Solução Jurídica"
-                style="width: 100%; height: 100%; object-fit: cover;">
+              <img src="assets/images/advocacia-resolucao.webp" alt="Cenário de Solução Jurídica" width="600"
+                height="400" style="width: 100%; height: 100%; object-fit: cover;">
               <div
                 style="position: absolute; inset: 0; background: linear-gradient(to bottom, transparent, var(--dark-surface));">
               </div>
@@ -605,60 +620,60 @@
           <!-- Slide items -->
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (6).webp"
-              alt="Escritório Camacho"></div>
+              alt="Escritório Camacho" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (6) (1).webp"
-              alt="Atendimento Camacho"></div>
+              alt="Atendimento Camacho" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7).webp"
-              alt="Sala de Reunião"></div>
+              alt="Sala de Reunião" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (1).webp"
-              alt="Interior Escritório"></div>
+              alt="Interior Escritório" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (2).webp"
-              alt="Ambiente Profissional"></div>
+              alt="Ambiente Profissional" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (3).webp"
-              alt="Escritório Camacho"></div>
+              alt="Escritório Camacho" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (5).webp"
-              alt="Atendimento"></div>
+              alt="Atendimento" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (6).webp"
-              alt="Camacho Advocacia"></div>
+              alt="Camacho Advocacia" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (7).webp"
-              alt="Fachada/Detalhes"></div>
+              alt="Fachada/Detalhes" width="320" height="420"></div>
 
           <!-- Duplicate items for seamless loop -->
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (6).webp"
-              alt="Escritório Camacho"></div>
+              alt="Escritório Camacho" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (6) (1).webp"
-              alt="Atendimento Camacho"></div>
+              alt="Atendimento Camacho" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7).webp"
-              alt="Sala de Reunião"></div>
+              alt="Sala de Reunião" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (1).webp"
-              alt="Interior Escritório"></div>
+              alt="Interior Escritório" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (2).webp"
-              alt="Ambiente Profissional"></div>
+              alt="Ambiente Profissional" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (3).webp"
-              alt="Escritório Camacho"></div>
+              alt="Escritório Camacho" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (5).webp"
-              alt="Atendimento"></div>
+              alt="Atendimento" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (6).webp"
-              alt="Camacho Advocacia"></div>
+              alt="Camacho Advocacia" width="320" height="420"></div>
           <div class="slide"><img
               src="assets/images/camacho+advocacia-imobiliaria-direito+imobiliario-trabalhista-em-campo+grande-rio+de+janeiro-rj (7) (7).webp"
-              alt="Fachada/Detalhes"></div>
+              alt="Fachada/Detalhes" width="320" height="420"></div>
         </div>
       </div>
     </section>
@@ -695,7 +710,7 @@
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14704.1481100366!2d-43.5651528!3d-22.9056345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e686f7%3A0x8805f1f3a29080b0!2sCampo%20Grande%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1710000000000!5m2!1spt-BR!2sbr"
               style="width: 100%; height: 100%; border:0; filter: grayscale(1) invert(0.9) contrast(1.2);"
-              allowfullscreen="" loading="lazy"></iframe>
+              allowfullscreen="" loading="lazy" title="Mapa de Localização do Escritório em Campo Grande"></iframe>
           </div>
         </div>
       </div>
@@ -990,7 +1005,7 @@
               <span
                 style="position:absolute; left:15px; width:10px; height:10px; background:var(--gold); border-radius:50%; box-shadow:0 0 5px rgba(0,0,0,0.3);"></span>
             </span>
-            Preferências de Cookies
+            Cookies
           </a>
           <p class="credits" style="font-size: 0.75rem;">Desenvolvido por <a href="https://www.ag5agencia.com.br"
               target="_blank" style="color: var(--gold); text-decoration: none; font-weight: 700;">AG5 Agência</a></p>
@@ -1132,9 +1147,9 @@
     </div>
   </div>
 
-  <!-- Scripts -->
+  <!-- Scripts (PageSpeed fix: adding defer to all non-critical scripts) -->
   <script src="cookie-banner.js" defer></script>
-  <script src="script.js"></script>
+  <script src="script.js" defer></script>
 </body>
 
 </html>
