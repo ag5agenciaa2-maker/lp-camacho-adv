@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.camachoadvocacia.ag5agencia.site/sitemap.xml
